@@ -23,15 +23,17 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
 Onde VALOR é o novo valor da variável.
 */
 function adicionarValor() {
-	teste = 'VALOR';
-	return teste;
+	teste = 25;
+	return 'O retorna da função agora é' + teste;
 }
 
 // Invoque a função criada acima.
 adicionarValor();
 
 // Qual o retorno da função? (Use comentários de bloco).
-'VALOR'
+/*
+ 'O retorna da função agora é 25';
+*/
 
 /*
 Crie uma função com as seguintes características:
