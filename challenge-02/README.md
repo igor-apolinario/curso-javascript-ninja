@@ -75,27 +75,17 @@ Crie uma função com as seguintes características:
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
 function testarCaracteres (parametro1, parametro2, parametro3) {
-  if (parametro1 || parametro2 || parametro3) {
     if (parametro1 && parametro2 && parametro3) {
       return (parametro1 + parametro2) / parametro3;
     } else if (parametro1 && !parametro2 && !parametro3) {
       return parametro1;
-    } else if (!parametro1 && parametro2 && !parametro3) {
-      return parametro2;
-    } else if (!parametro1 && !parametro2 && parametro3) {
-      return parametro3;
     } else if (parametro1 && parametro2 && !parametro3) {
       return parametro1 + parametro2;
-    } else if (!parametro1 && parametro2 && parametro3) {
-      return parametro2 + parametro3;
-    } else if (parametro1 && !parametro2 && parametro3) {
-      return parametro1 + parametro3;
+    } else if(!parametro1 && !parametro2 && !parametro3){
+      return false;
     } else {
-      return null;
-    }
-	} else {
-		return false;
-	}
+		  return null;
+	  }
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
