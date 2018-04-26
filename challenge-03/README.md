@@ -98,25 +98,25 @@ Agora vamos brincar um pouco com o objeto criado:
 Qual o nome completo da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-Igor Apolinário. // 'Olá! Meu nome é Igor Apolinário'
+pessoa.nomeCompleto(); // 'Olá! Meu nome é Igor Apolinário'
 
 /*
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-22. // 'Olá, eu tenho 22 anos!'
+pessoa.mostrarIdade(); // 'Olá, eu tenho 22 anos!'
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-66. // 'Eu peso 66Kg'
+pessoa.mostrarPeso(); // 'Eu peso 66Kg'
 
 /*
 Qual a altura da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-1,78. // 'Minha altura é 1.78m.'
+pessoa.mostrarAltura(); // 'Minha altura é 1.78m.'
 
 /*
 Faça a `pessoa` fazer 3 aniversários.
@@ -130,7 +130,7 @@ Quantos anos a `pessoa` tem agora? (Use a instrução para responder e
 comentários inline ao lado da instrução para mostrar qual foi a resposta
 retornada)
 */
-25. // 'Olá, eu tenho 25 anos!'
+pessoa.mostrarIdade(); // 'Olá, eu tenho 25 anos!'
 
 /*
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
@@ -144,7 +144,7 @@ pessoa.andar(4);
 A pessoa ainda está andando? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-Sim. // True
+pessoa.andando; // True
 
 /*
 Se a pessoa ainda está andando, faça-a parar.
@@ -155,13 +155,13 @@ pessoa.parar();
 E agora: a pessoa ainda está andando? (Use uma instrução para responder e
 comentários inline ao lado da instrução para mostrar a resposta retornada)
 */
-Não. // False
+pessoa.andando; // False
 
 /*
 Quantos metros a pessoa andou? (Use uma instrução para responder e comentários
 inline ao lado da instrução para mostrar a resposta retornada)
 */
-15 metros. // 15
+pessoa.caminhouQuantosMetros; // 15
 
 /*
 Agora vamos deixar a brincadeira um pouco mais divertida! :D
